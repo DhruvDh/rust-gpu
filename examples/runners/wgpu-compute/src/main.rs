@@ -1,4 +1,3 @@
-
 fn shader_module() -> wgpu::ShaderModuleSource<'static> {
     wgpu::include_spirv!(env!("compute_shader.spv"))
 }
